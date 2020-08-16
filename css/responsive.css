@@ -1,0 +1,78 @@
+@media screen and (max-width: 768px) {
+    header nav.desktop-menu {
+        display: none;
+    }
+
+    header {
+        height: auto;
+        min-height: 80vh;
+    }
+
+    header nav.mobile-menu {
+        display: block;
+    }
+
+    .call-to-action {
+        float: none;
+
+        width: 100%;
+        max-width: none;
+
+        text-align: center;
+    
+        margin: 100px 0;
+    }
+    
+    .call-to-action h2 {
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+
+        padding: 0 10px;
+    }
+    
+    .call-to-action p {
+        font-size: 15px;
+        color: white;
+    
+        margin-top: 10px;
+    }
+
+
+    section.device-purple-section {
+        padding: 40px 2%;
+
+        height: auto;
+
+        text-align: center;
+    }
+
+    .text-device-section {
+        width: 100%;
+
+        margin-top: 0;
+        padding-left: 0;
+
+        position: static;
+        display: inline-block;
+
+        float: none;
+    }
+
+    .text-device-section ul {
+        display: inline-block;
+
+        margin-top: 5px;
+        margin-bottom: 10px;
+
+        text-align: left;
+    }
+
+    .text-device-section ul li {
+        float: none;
+    }
+
+    .image-device-section {
+        display: none;
+    }
+}
