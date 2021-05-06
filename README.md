@@ -1,1 +1,1 @@
-# landingpage-2
+Segunda página teste para estudo.
